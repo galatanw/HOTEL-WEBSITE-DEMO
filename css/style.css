@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    overflow-x: hidden;
+}
+
+#head_bar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: rgb(17, 202, 178);
+    padding: 3vh;
+    list-style-type: none;
+    width: 100vw;
+
+    
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: fantasy;
+}
+a:link{
+    color: white;
+}
+a:active{
+    color: red;
+}
+#head_bar a:hover{
+    background-color:black;
+    color: gold;
+    padding: 3.2VH;
+
+}
+#cnrblk{
+    position: relative;
+    left: 10%;
+    right:10%;
+    width: 80vw;
+    height: 75vh;
+    margin: 0;
+    top:5vh;
+    
+}
+
+
+.hotels{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    box-shadow: 0px -25px 20px;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);    
+    border-radius: 4%;
+}
+h1{
+    text-decoration: none gold;
+    font-family:sans-serif;
+    font-size: 20pt;
+    color: silver;
+
+}
+#small{
+    
+}
+#smll{
+    
+}
+#mall{
+    
+}
+#smal{
+    
+}
+#smmall{
+    
+}
+img{
+    width: 10vw;
+    height: 20vh;
+    transition: 1s linear;
+}
+.hotels img:hover{
+  transform: scale(2.5);
+  box-shadow: 1vw 2vw 50vw gold;
+}
+footer{
+    width: 100vw;
+    height: 16vw;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    position:relative;
+    
+}
+#logo{
+    margin-left: 45%;
+    transition: none !important;
+}
+
+#hr{
+    height: .5vh;
+    background: black;
+}
+#footnav{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: 13vh;
+   
+
+}
+h4{
+    font-family:cursive;
+    color: red;
+}
+#footnav:nth-child(1){grid-column: 1/2;}
+#footnav:nth-child(2){grid-column: 1/2;}
+#footnav:nth-child(3){grid-column: 1/2;}
+#footnav:nth-child(4){grid-column: 1/2;}
+
+.foot_list{
+    list-style-type: none;
+    margin-top: 0vh;
+
+}
+.foot_list li:hover{
+    padding: 1vh;
+    background: #8c928f;
+    color:white;
+    text-decoration: underline;
+
+}
+#facebook{
+    width: 3vw;
+    height: 6vh;
+}
